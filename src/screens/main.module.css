@@ -1,0 +1,4 @@
+.mainScreen {
+  composes: screen from global;
+  background-color: var(--white);
+}

@@ -1,0 +1,16 @@
+.mainInternetSection {
+  padding: 80px 0;
+}
+
+.container {
+  composes: container from global;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}

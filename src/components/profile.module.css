@@ -1,0 +1,19 @@
+.link {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--tundora);
+  font-size: 16px;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+
+.icon {
+  width: 20px;
+}
+
+.link:hover,
+.link:focus-visible,
+.linkActive {
+  color: var(--rose);
+}

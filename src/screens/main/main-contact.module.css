@@ -1,0 +1,40 @@
+.container {
+  composes: container from global;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 55%;
+  padding: 80px 0 160px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.inputsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.inputs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px 32px;
+}
+
+.detail {
+  position: absolute;
+  right: -80px;
+  bottom: 0;
+  max-width: 640px;
+  width: 100%;
+}

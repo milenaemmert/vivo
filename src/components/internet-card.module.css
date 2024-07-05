@@ -1,0 +1,57 @@
+.internetCard {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  max-width: 280px;
+  width: 100%;
+  padding: 32px 24px 48px;
+  border: 1px solid var(--purple);
+  border-radius: 16px;
+}
+
+.offer {
+  background-color: var(--purple);
+  position: absolute;
+  top: -18px;
+  left: -1px;
+  display: flex;
+  align-items: center;
+  height: 36px;
+  padding: 0 16px;
+  border-radius: 8px;
+  border-bottom-left-radius: 0;
+  color: var(--white);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.title {
+  color: var(--amethyst);
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.price {
+  color: var(--cod-gray);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.detail {
+  color: var(--tundora);
+  font-size: 16px;
+  font-weight: 400;
+}

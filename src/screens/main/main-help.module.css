@@ -1,0 +1,61 @@
+.mainHelpSection {
+  background-color: var(--alabaster);
+  padding: 80px 0;
+}
+
+.container {
+  composes: container from global;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 64px;
+  padding: 64px;
+  border: 1px solid var(--dusty-gray);
+  border-radius: 16px;
+}
+
+.image {
+  max-width: 120px;
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.title {
+  color: var(--tundora);
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.description {
+  color: var(--tundora);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  color: var(--rose);
+  font-size: 18px;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+
+.link:hover,
+.link:focus-visible {
+  color: var(--purple);
+}
+
+.icon {
+  width: 20px;
+}

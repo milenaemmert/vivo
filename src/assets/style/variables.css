@@ -1,0 +1,20 @@
+:root {
+  --black-rgb: 0, 0, 0;
+  --cod-gray: #111111;
+  --mine-shaft: #333333;
+  --tundora: #444444;
+  --dusty-gray: #999999;
+  --alabaster: #f8f8f8;
+  --white: #ffffff;
+  --white-rgb: 255, 255, 255;
+  --rose: #fd1c7d;
+  --amethyst: #ca3bcb;
+  --sunset-orange: #ff4949;
+  --purple: #660099;
+  --jaffa: #f59b45;
+  --poppins-font: 'Poppins', sans-serif;
+  --container-width: 1280px;
+  --container-padding: 24px;
+  --header-height: 88px;
+  --header-height-small: 64px;
+}

@@ -1,0 +1,31 @@
+.mainWhyUsSection {
+  padding: 80px 0;
+}
+
+.container {
+  composes: container from global;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.description {
+  max-width: 1024px;
+  color: var(--mine-shaft);
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}

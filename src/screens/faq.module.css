@@ -1,0 +1,10 @@
+.faqScreen {
+  composes: screen from global;
+  background-color: var(--rose);
+  padding-top: 160px;
+  color: var(--white);
+}
+
+.container {
+  composes: container from global;
+}

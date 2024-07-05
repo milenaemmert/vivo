@@ -1,0 +1,10 @@
+.internetScreen {
+  composes: screen from global;
+  background-color: var(--purple);
+  padding-top: 160px;
+  color: var(--white);
+}
+
+.container {
+  composes: container from global;
+}

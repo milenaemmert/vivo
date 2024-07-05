@@ -1,0 +1,47 @@
+.header {
+  background-color: var(--white);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: var(--header-height);
+  z-index: 10;
+  transition: 0.4s all;
+}
+
+.headerSmall {
+  height: var(--header-height-small);
+  box-shadow: 0 0 40px rgba(var(--black-rgb), 0.15);
+}
+
+.container {
+  composes: container from global;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  gap: 64px;
+}
+
+.links {
+  display: flex;
+  gap: 32px;
+}
+
+.link {
+  color: var(--tundora);
+  font-size: 16px;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+
+.link:hover,
+.link:focus-visible,
+.linkActive {
+  color: var(--rose);
+}

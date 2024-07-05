@@ -1,0 +1,34 @@
+.mainBannerSection {
+  background: linear-gradient(
+    to bottom left,
+    var(--jaffa),
+    var(--rose),
+    var(--purple)
+  );
+  height: calc(640px + var(--header-height));
+  padding-top: var(--header-height);
+}
+
+.container {
+  composes: container from global;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.content {
+  max-width: 448px;
+  color: var(--white);
+  font-size: 72px;
+  line-height: 1.2;
+}
+
+.highlight {
+  background-color: var(--white);
+  color: var(--rose);
+}
+
+.image {
+  align-self: flex-end;
+  max-width: 454px;
+}

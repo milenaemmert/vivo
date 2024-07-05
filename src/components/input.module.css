@@ -1,0 +1,28 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.label {
+  color: var(--tundora);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.input {
+  background-color: var(--white);
+  width: 100%;
+  color: var(--tundora);
+  font-size: 16px;
+  font-weight: 400;
+  padding: 12px 16px;
+  border: 1px solid var(--purple);
+  border-radius: 8px;
+}
+
+.error {
+  color: var(--sunset-orange);
+  font-size: 12px;
+  font-weight: 400;
+}

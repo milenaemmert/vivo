@@ -1,0 +1,5 @@
+export const MAIN_ROUTE = '/'
+export const INTERNET_ROUTE = '/planos'
+export const FAQ_ROUTE = '/duvidas'
+export const PROFILE_ROUTE = '/perfil'
+export const LOGIN_ROUTE = '/login'

@@ -1,0 +1,10 @@
+.profileScreen {
+  composes: screen from global;
+  background-color: var(--sunset-orange);
+  padding-top: 160px;
+  color: var(--white);
+}
+
+.container {
+  composes: container from global;
+}

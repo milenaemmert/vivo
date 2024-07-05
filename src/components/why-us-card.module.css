@@ -1,0 +1,26 @@
+.whyUsCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  max-width: 360px;
+  width: 100%;
+}
+
+.image {
+  max-width: 256px;
+}
+
+.title {
+  color: var(--cod-gray);
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.description {
+  color: var(--tundora);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
